@@ -45,6 +45,11 @@ nav ul li a {
   padding-top: 120px;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 .column {
   border: 1px solid MediumAquamarine;
   display: inline-flex;
@@ -52,25 +57,51 @@ nav ul li a {
 }
 
 .column div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid MediumAquamarine;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  padding: 10px 0;
 }
 
 .large {
   width: 630px;
 }
 
-.main-story {
+.main-story p {
   background-image: url("../img/img-story-main.png");
-
-  color: red;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding: 4px 0 174px 0;
 }
 
 .earth-pic {
   background-image: url("../img/img-story-2.png");
 }
 
+.earth-pic p {
+  padding: 4px 0 266px 0;
+}
+
 .camera-pic {
   background-image: url("../img/img-story-3.png");
+}
+
+.camera-pic p {
+  text-align: center;
+  padding: 4px 0 236px 0;
+}
+
+.earth-pic p, .camera-pic p, .cat-pic p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .medium {
@@ -81,6 +112,15 @@ nav ul li a {
   background-image: url("../img/img-story-1.png");
 }
 
+.cat-pic p {
+  text-align: center;
+  padding: 4px 0 236px 0;
+}
+
 .small {
   width: 240px;
+}
+
+.small h1 {
+  font-size: 1.17em;
 }
