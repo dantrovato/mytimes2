@@ -168,16 +168,15 @@ h1 {
 
 footer {
   margin-top: 80px;
+  font-family: Verdana;
+  font-size: 12px;
 }
 
 .footer-nav {
-
-  height: 360px;
+  padding-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Verdana;
-  font-size: 12px;
 }
 
 .footer-nav span {
@@ -188,13 +187,15 @@ footer {
   margin-right: 20px;
 }
 
-.footer-div {
+.copy  {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+footer .footer-div {
   background-color: MediumAquamarine;
   display: flex;
   flex-direction: column;
-}
-
-.footer-div p {
-
   justify-content: center;
 }
